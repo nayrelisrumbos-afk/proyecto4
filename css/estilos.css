@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Caja blanca */
+.changelog {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin: 0 0 10px 0;
+    color: #6a1b9a;
+}
+
+/* Subtítulo */
+.subtitulo {
+    color: #999;
+    margin-bottom: 30px;
+}
+
+/* Línea*/
+.linea {
+    border-left: 2px solid #6a1b9a;
+    padding-left: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Cada mes */
+.cambio {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+/* Fecha primero, segundo... */
+.fecha {
+    display: block;
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+/* Punto sobre la línea */
+.punto {
+    width: 14px;
+    height: 14px;
+    background-color: #6a1b9a;
+    border-radius: 50%;
+    position: absolute;
+    left: -33px;
+    top: 15px;
+}
+
+/* Texto */
+.cambio p {
+    margin: 0;
+    font-size: 15px;
+    color: #200942;
+}
+
+/* Botón morado */
+.boton {
+    display: inline-block;
+    background-color: #6a1b9a;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+@media (max-width: 500px) {
+    .changelog {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .fecha {
+        font-size: 12px;
+    }
+
+    .cambio p {
+        font-size: 14px;
+    }
+}
